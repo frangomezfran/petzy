@@ -1,0 +1,22 @@
+Necesito una aplicacion construida en java, react, mysql y frameworks, librerias que convengas necesarias para construir la siguiente aplicacion, necesito poder levantar la aplicacion en local con docker:
+
+La aplicacion debe tener 2 proyectos de github diferentes.
+
+- petzy-frontend
+- petzy-backend
+
+Donde el backend es una api que expone endpoints para que el frontend los consuma.
+
+La aplicacion debe tener un Login usando auth2 para poder iniciar sesion con cualquier red social, sea google, facebook, twitter nose lo que sea (Esto informame que costo implica sea costo tecnico o costo monetario)
+
+La persona debe ingresar y llenar un formulario con sus datos basicos, esto es muy importante, el formulario debe tener la forma o el ui ux de manera tal que no sea un formulario horrible de 1 pagina con lleno de datos. Para este MVP le vamos a pedir el nombre, apellido, telefono, dni, direccion. Luego cuando termine de poner sus datos debe aparecerle la opcion para agregar una mascota, el usuario que ingreso va a ser duenio de una o mas mascotas. donde tambien en el caso de cargar una mascota se debe cargar un formulario con una linda ui/ux moderna no tosca.
+
+Algo que se me ocurre cuando uno quiere ingresar un nuevo animal es que le aparezca un emoticon del tipo de animal a ingresar, que en este caso seria un perro o un gato.
+
+Los datos que se le van a pedir de la mascota son nombre, fecha de nacimiento, raza donde este valor tiene que venir de base de datos y elegir entre ellos, puede ser mestizo tambien. Luego necesito preguntar sobre las vacunas que tiene puestas, sinceramente nose hoy que vacunas necesita un perro en argentina dependiendo la edad y la raza y para los gatos lo mismo, pero me gustaria que en la base de datos tengamos eso para que no sea un campo de texto para el usuario. Podriamos poner de todos modos un campo de texto para que el owner ponga de su pet pero para describirlo en que caracter tiene el animal o como es, tambien quiero poder tener la posibilidad de que el owner pueda adjuntar las imagenes de la libreta del pet, la libreta medica donde se suele poner las vacunas y etc la idea en general es poder crear una especie de historial medico del animal y que de alguna manera queden registros para que cuando el owner tenga que dirigirse a una veterinaria este tenga los datos en la nube.
+
+luego de cargar eso y preguntar de nuevo si queremos agregar una mascota mas debo, en el caso de que quiera agregar quiero que aparezca el formulario de carga de un nuevo pet, y en el caso de no ir a una especie de landing page donde exista un menu de hamburguesa arriba a la izquierda donde si se apreta aparezcan funcionalidades futuras que se puedan hacer, y arriba a la derecha un icono del usuario para poder editar los datos ingresados del owner o los pets y un boton de cerrar sesion.
+
+Quiero que el backend utilice la ultima version de quarkus.
+
+El codigo debe estar escrito en Ingles. el duenio seria un owner y una mascota seria un pet, la idea a futuro es que existan todo tipo de mascotas pero con dog y cat estamos bien para este MVP 

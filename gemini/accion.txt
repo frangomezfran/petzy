@@ -1,0 +1,57 @@
+Instrucción de Idioma:
+
+Comunicación: Respóndeme y explícame todo en Español.
+
+Código: Genera el código (clases, variables, métodos, tablas) en Inglés.
+
+Comentarios: Comenta el código en Español.
+
+Rol: Senior Fullstack Architect.
+Tarea: Generar el scaffolding completo de "petzy" dividido en dos proyectos independientes.
+
+1. Estructura de Proyectos:
+Genera la estructura de archivos para:
+
+/petzy-backend: Proyecto Java con Quarkus (última versión).
+
+/petzy-frontend: Proyecto React (Vite) + Tailwind CSS.
+
+Raíz: Un archivo docker-compose.yml que levante ambos contenedores y una base de datos PostgreSQL.
+
+2. Arquitectura del Backend (petzy-backend):
+Utiliza el patrón de Arquitectura en Capas (Layered Architecture):
+
+Resources: Controladores REST.
+
+Services (Business Objects): Lógica de negocio.
+
+Repositories: Acceso a datos con Panache.
+
+Entities: Mapeo de DB (JPA/Hibernate).
+
+DTOs: Objetos de transferencia para la API.
+
+Seguridad: Implementa Login con Username/Password y JWT. Incluye la lógica de generación y validación de tokens.
+
+3. Base de Datos y Multimedia:
+
+Genera el script SQL (DDL) con tablas: Users, Owners, Pets, Breeds, Vaccines.
+
+Incluye un import.sql con vacunas comunes de Argentina.
+
+Crea una interfaz FileStorageService para guardar imágenes de libretas sanitarias en el sistema de archivos local (/uploads).
+
+4. Frontend e Identidad Visual (petzy-frontend):
+
+Logo Corporativo: La aplicación utiliza un logo en formato SVG. Por favor, integra el componente de imagen del logo en los lugares clave (Pantalla de Login, Navbar/Sidebar del Dashboard).
+
+Ruta del logo para el código: logo.svg (Ejemplo: /src/assets/logo.svg).
+
+UI/UX: Crea una interfaz moderna y minimalista usando Tailwind CSS.
+
+Formulario Multi-paso: Registro de Owner y carga de Mascotas (con selección visual Perro/Gato).
+
+Comunicación: Configura Axios para las peticiones al backend, incluyendo el interceptor para el token JWT.
+
+5. Entrega:
+Proporciona la estructura de carpetas, los archivos de configuración (pom.xml, package.json, Dockerfile), el script SQL y los archivos de código más importantes de cada capa para tener el MVP funcional y listo para levantar con Docker.

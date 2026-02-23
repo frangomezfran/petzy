@@ -1,0 +1,33 @@
+Instrucción de Diseño y Estilo (Frontend):
+
+Necesito corregir la interfaz actual porque no se ve profesional. Por favor, aplica los siguientes cambios de CSS/Tailwind:
+
+1. Layout y Posicionamiento:
+
+Login: El contenedor del Login debe estar perfectamente centrado tanto vertical como horizontalmente en la pantalla. Usa un layout de Flexbox o Grid de pantalla completa (min-h-screen).
+
+Fondo: Cambia el blanco puro por nuestro color Blanco hueso (#FCF8F0) para que la vista descanse.
+
+2. Sistema de Colores (Paleta Petsy):
+Aplica la paleta de forma jerárquica para un look moderno y "Clean":
+
+Fondo Principal: #FCF8F0 (Blanco).
+
+Color Primario (Botones principales, links activos): #699A9B (Verde Oscuro).
+
+Color Secundario (Fondos de tarjetas, acentos): #C8EAD1 (Verde Claro).
+
+Acentos de Interacción (Hover, notificaciones): #B09CD8 (Lavanda) o #F7A191 (Rosa) para elementos sutiles.
+
+Texto y Tipografía: #393C46 (Negro) para máxima legibilidad.
+
+3. Estética de Componentes:
+
+Tarjetas (Cards): Los contenedores (como el del login) deben tener bordes redondeados pronunciados (rounded-2xl), una sombra muy suave (shadow-sm) y un fondo blanco sólido para resaltar del fondo de la página.
+
+Inputs: Los campos de texto deben tener un borde sutil que cambie al Verde Oscuro (#699A9B) cuando el usuario haga foco.
+
+Modernización: Elimina bordes toscos. Usa espacios generosos (padding/gap) entre elementos para que la UI "respire".
+
+4. Entrega:
+Re-genera el código del componente de Login y el archivo principal de estilos (o la configuración de Tailwind) aplicando estas reglas y la paleta de colores mencionada.

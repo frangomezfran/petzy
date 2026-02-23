@@ -1,0 +1,22 @@
+# Java / Quarkus
+petzy-backend/target/
+petzy-backend/.quarkus/
+petzy-backend/*.log
+petzy-backend/.factorypath
+petzy-backend/.settings/
+petzy-backend/.project
+petzy-backend/.classpath
+
+# Node / React
+petzy-frontend/node_modules/
+petzy-frontend/dist/
+petzy-frontend/.vite/
+petzy-frontend/*.log
+
+# Docker / OS
+.DS_Store
+Thumbs.db
+.env
+/uploads/
+logo.svg
+reset.bat
